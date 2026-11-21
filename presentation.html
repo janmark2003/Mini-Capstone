@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation | Jan Dergy Commission Tracking System Portal Application</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="presentation.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="main.html" class="logo-link">
+                <img src="Assets/logo.png" alt="Jan Dergy Logo" class="logo">
+            </a>
+
+            <nav class="main-nav">
+                <a href="main.html" class="nav-link">Home</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="doc-layout">
+
+            <!-- Sticky Left Table of Contents Sidebar -->
+            <aside class="doc-sidebar" aria-label="Table of Contents">
+                <nav class="toc-card">
+                    <div class="toc-title">Contents</div>
+                    <ul class="toc-list">
+                        <li>
+                            <a href="#section-overview" class="toc-link active">
+                                <span class="toc-num">00</span>
+                                <span>Overview &amp; Diagrams</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#section-01" class="toc-link">
+                                <span class="toc-num">01</span>
+                                <span>Background of the Study</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#section-02" class="toc-link">
+                                <span class="toc-num">02</span>
+                                <span>Statement of the Problem</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#section-03" class="toc-link">
+                                <span class="toc-num">03</span>
+                                <span>Significance of the Study</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#section-04" class="toc-link">
+                                <span class="toc-num">04</span>
+                                <span>Scope &amp; Delimitations</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#section-05" class="toc-link">
+                                <span class="toc-num">05</span>
+                                <span>Theoretical &amp; Conceptual</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#section-06" class="toc-link">
+                                <span class="toc-num">06</span>
+                                <span>System Models &amp; Diagrams</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#section-07" class="toc-link">
+                                <span class="toc-num">07</span>
+                                <span>Integration &amp; Methodology</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+
+            <!-- Right Main Documentation Column -->
+            <section class="doc-main">
+
+                <!-- Title / Hero Card (Template Slide 1) -->
+                <div class="pres-hero" id="section-overview">
+                    <span class="pres-badge">BSIS MINI CAPSTONE DOCUMENTATION</span>
+                    <h1>Commission Tracking System Portal Application</h1>
+                    <p class="pres-subtitle">
+                        An Android Mobile Portal Application with Real-Time Order Tracking, Direct Client-Artist Messaging, and Automated Cloud Media Lifecycle Management
+                    </p>
+                    <div class="pres-meta">
+                        <span class="meta-item"><span class="meta-label">Developer:</span> <span class="meta-value">Janmark Prieto Abo (IS-S2)</span></span>
+                        <span class="meta-item"><span class="meta-label">Program:</span> <span class="meta-value">Bachelor of Science in Information Systems</span></span>
+                        <span class="meta-item"><span class="meta-label">Institution:</span> <span class="meta-value">Cronasia Foundation College, Inc.</span></span>
+                        <span class="meta-item"><span class="meta-label">Instructor:</span> <span class="meta-value">Rosso Cuyos, MBM, MIT, LPT</span></span>
+                        <span class="meta-item"><span class="meta-label">Academic Year:</span> <span class="meta-value">2026&ndash;2027</span></span>
+                    </div>
+                </div>
+
+                <!-- 5-Card Grid for Draw.io Links in Exact Order (1 to 5) -->
+                <div class="drawio-showcase" id="section-diagrams">
+                    <div class="drawio-header">
+                        <h2>System Architecture &amp; Modeling Diagrams</h2>
+                        <p class="drawio-helper">Click any diagram to inspect in Draw.io</p>
+                    </div>
+                    <div class="drawio-grid">
+                        <a href="https://drive.google.com/file/d/15zYxRTsk6cLDqzKcdkj1aDQLLB3h4qmL/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="drawio-card">
+                            <div class="drawio-card-top">
+                                <span class="drawio-num">01</span>
+                                <span class="drawio-ext" aria-hidden="true">&#8599;</span>
+                            </div>
+                            <div>
+                                <div class="drawio-card-title">DFD Level 0</div>
+                                <div class="drawio-card-sub">Context Diagram</div>
+                            </div>
+                        </a>
+
+                        <a href="https://drive.google.com/file/d/13kJ8aCgN-qEv7ppW3GzqRhGD2GP_awo9/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="drawio-card">
+                            <div class="drawio-card-top">
+                                <span class="drawio-num">02</span>
+                                <span class="drawio-ext" aria-hidden="true">&#8599;</span>
+                            </div>
+                            <div>
+                                <div class="drawio-card-title">DFD Level 1</div>
+                                <div class="drawio-card-sub">Process Decomposition</div>
+                            </div>
+                        </a>
+
+                        <a href="https://drive.google.com/file/d/1ExyQsyvsMXiKKILOCslPMDjkt3yVIfad/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="drawio-card">
+                            <div class="drawio-card-top">
+                                <span class="drawio-num">03</span>
+                                <span class="drawio-ext" aria-hidden="true">&#8599;</span>
+                            </div>
+                            <div>
+                                <div class="drawio-card-title">ERD</div>
+                                <div class="drawio-card-sub">Database Schema</div>
+                            </div>
+                        </a>
+
+                        <a href="https://drive.google.com/file/d/1JdpY2bRiEGah_U-HAdQziUzndbuoT05-/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="drawio-card">
+                            <div class="drawio-card-top">
+                                <span class="drawio-num">04</span>
+                                <span class="drawio-ext" aria-hidden="true">&#8599;</span>
+                            </div>
+                            <div>
+                                <div class="drawio-card-title">Use Case Diagram</div>
+                                <div class="drawio-card-sub">Actors &amp; Use Cases</div>
+                            </div>
+                        </a>
+
+                        <a href="https://drive.google.com/file/d/1w4dunMqELvtkDKAAGhCOxJcETUdQrofF/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="drawio-card">
+                            <div class="drawio-card-top">
+                                <span class="drawio-num">05</span>
+                                <span class="drawio-ext" aria-hidden="true">&#8599;</span>
+                            </div>
+                            <div>
+                                <div class="drawio-card-title">UML Class Diagram</div>
+                                <div class="drawio-card-sub">Java Package Models</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 1. Background of the Study (Template Slide 2) -->
+                <div class="pres-section" id="section-01">
+                    <div class="section-header">
+                        <span class="section-num">01</span>
+                        <h2>Background of the Study</h2>
+                    </div>
+                    <ul class="clean-list">
+                        <li>Digital art commissioning involves multi-stage workflows including slot availability checks, order request intake, quotation and receipt verification, work-in-progress (WIP) feedback iterations, and final high-resolution asset delivery.</li>
+                        <li>However, independent digital artists and freelance service providers typically rely on fragmented third-party social platforms (scattered chat threads, manual spreadsheets, and unorganized cloud folders), resulting in lost commission requests, delayed status updates, lack of structured receipt verification, and rapid cloud storage exhaustion.</li>
+                        <li>Thus, there is an operational need for a centralized mobile commission management system that integrates real-time order tracking, direct client-artist communication, multi-layer security, and automated media storage lifecycle maintenance.</li>
+                        <li>This capstone project develops the <strong>Commission Tracking System Portal Application</strong>, an Android portal engineered with Firebase Realtime Database, Google OAuth 2.0, Cloudinary Media API, and TiDB Cloud to streamline end-to-end commission workflows between Clients and the Admin/Artist.</li>
+                    </ul>
+                </div>
+
+                <!-- 2. Statement of the Problem & Objectives (Template Slide 3) -->
+                <div class="pres-section" id="section-02">
+                    <div class="section-header">
+                        <span class="section-num">02</span>
+                        <h2>Statement of the Problem &amp; System Objectives</h2>
+                    </div>
+                    <div class="sop-list">
+                        <div class="sop-card">
+                            <div class="sop-badge">01</div>
+                            <div class="sop-content">
+                                <h3>How can commission intake, slot capacity, and order lifecycle tracking be centralized and automated?</h3>
+                                <ul class="sop-sublist">
+                                    <li><span>1.1</span>Configure real-time commission slot caps in <code>/Settings/CommissionSlots</code> so clients can only submit requests when slots are open;</li>
+                                    <li><span>1.2</span>Provide structured commission request submission capturing commission type, details, mode of payment (MOP), budget, and currency; and</li>
+                                    <li><span>1.3</span>Enable Admin approval with receipt transaction numbers (<code>transNo</code>) that promote pending requests into active commissions tracked across milestones and client-grouped archives.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="sop-card">
+                            <div class="sop-badge">02</div>
+                            <div class="sop-content">
+                                <h3>How can client-artist communication, WIP feedback, and account security be reliably managed in real time?</h3>
+                                <ul class="sop-sublist">
+                                    <li><span>2.1</span>Implement Google Sign-In (OAuth 2.0) paired with Data Privacy Act (RA 10173) compliance, 4-digit MPIN &amp; biometric authentication, and an Admin-managed MPIN reset ticket workflow;</li>
+                                    <li><span>2.2</span>Provide real-time direct messaging with typing indicators, inline media playback, and dedicated WIP comment threads on both pending requests and active commissions; and</li>
+                                    <li><span>2.3</span>Run a persistent Android foreground notification service (<code>AppNotificationService</code> &amp; <code>BootReceiver</code>) that dispatches instant push alerts for messages, comments, status updates, and news broadcasts.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="sop-card">
+                            <div class="sop-badge">03</div>
+                            <div class="sop-content">
+                                <h3>How can cloud media storage be optimized without manual cleanup overhead?</h3>
+                                <ul class="sop-sublist">
+                                    <li><span>3.1</span>Restrict high-resolution media uploads (&le;50MB image, video, and audio attachments) to verified users via Cloudinary CDN;</li>
+                                    <li><span>3.2</span>Log media attachment expiration timestamps in TiDB Cloud (7-day expiry for direct chat media and 30-day expiry for WIP comment attachments); and</li>
+                                    <li><span>3.3</span>Provide an Admin-triggered storage maintenance engine that queries expired keys from TiDB Cloud and automatically purges expired assets from Cloudinary.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Significance of the Study (Template Slide 4) -->
+                <div class="pres-section" id="section-03">
+                    <div class="section-header">
+                        <span class="section-num">03</span>
+                        <h2>Significance of the Study</h2>
+                    </div>
+                    <div class="grid-4">
+                        <div class="info-card">
+                            <h3>Admin / Artist</h3>
+                            <p>Centralizes slot capping, request screening, receipt transaction logging, client-grouped archiving, news broadcasting, and one-tap storage cleanup.</p>
+                        </div>
+                        <div class="info-card">
+                            <h3>Clients</h3>
+                            <p>Provides real-time visibility into open commission slots, pending request approvals, active milestone badges, direct chat, and WIP feedback threads.</p>
+                        </div>
+                        <div class="info-card">
+                            <h3>Institution &amp; BSIS</h3>
+                            <p>Demonstrates applied mobile software engineering, hybrid cloud databases (Firebase RTDB + TiDB Cloud), REST media APIs, and structured IS modeling at CFC.</p>
+                        </div>
+                        <div class="info-card">
+                            <h3>Future Researchers</h3>
+                            <p>Serves as a reference architecture for building real-time freelance management systems with automated cloud asset expiration and mobile security.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. Scope and Delimitations (Template Slide 5) -->
+                <div class="pres-section" id="section-04">
+                    <div class="section-header">
+                        <span class="section-num">04</span>
+                        <h2>Scope and Delimitations</h2>
+                    </div>
+                    <div class="grid-3">
+                        <div class="info-card">
+                            <h3>Focus (Scope)</h3>
+                            <p>Covers Google OAuth 2.0 + MPIN/Biometric auth, 12-digit Account ID registration, commission slot capping, request review &amp; promotion, active commission CRUD &amp; archive grouping, real-time chat &amp; WIP comment threads, news/community links, and TiDB + Cloudinary media purging.</p>
+                        </div>
+                        <div class="info-card">
+                            <h3>Respondents &amp; Period</h3>
+                            <p>Designed for digital art commissioners (Clients), the service provider/administrator (Jan Dergy), and BSIS technical evaluators at Cronasia Foundation College, Inc. during Academic Year 2026&ndash;2027.</p>
+                        </div>
+                        <div class="info-card">
+                            <h3>Delimitation</h3>
+                            <p>Records payment methods (MOP), budget, currency, and official receipt transaction numbers (<code>transNo</code>) for verification, excluding direct in-app banking charges. Chat and comment media follow automated 7-day and 30-day retention policies.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. Theoretical & Conceptual Framework (Template Slides 6 & 7) -->
+                <div class="pres-section" id="section-05">
+                    <div class="section-header">
+                        <span class="section-num">05</span>
+                        <h2>Theoretical &amp; Conceptual Framework</h2>
+                    </div>
+                    <div class="info-card" style="margin-bottom: 18px;">
+                        <h3>Theoretical Framework: IS Success &amp; Workflow Automation Theory</h3>
+                        <p>Anchored on DeLone and McLean&rsquo;s Information Systems Success Model, when a commission platform delivers high <strong>System Quality</strong> (real-time synchronization, hybrid cloud stability), <strong>Information Quality</strong> (accurate slot counts, verified receipt transaction tracking, live milestone statuses), and <strong>Service Quality</strong> (direct messaging, WIP feedback threads, foreground push alerts), users reciprocate with higher trust, faster feedback cycles, and streamlined service fulfillment.</p>
+                    </div>
+
+                    <div class="framework-flow">
+                        <div class="framework-box">
+                            <span class="framework-label">Independent Variables (System Modules)</span>
+                            <ul class="sop-sublist">
+                                <li><span>&bull;</span>Multi-Layer Auth (Google OAuth 2.0, RA 10173, MPIN &amp; Biometrics)</li>
+                                <li><span>&bull;</span>Commission Slot Capping &amp; Request Intake Engine</li>
+                                <li><span>&bull;</span>Real-Time Direct Messaging, WIP Comments &amp; Push Service</li>
+                                <li><span>&bull;</span>Hybrid Cloud Persistence (Firebase RTDB, Cloudinary &amp; TiDB Expiry)</li>
+                            </ul>
+                        </div>
+                        <div class="framework-arrow">&rarr;</div>
+                        <div class="framework-box">
+                            <span class="framework-label">Dependent Variables (System Outcomes)</span>
+                            <ul class="sop-sublist">
+                                <li><span>&bull;</span>Centralized Commission Lifecycle &amp; Archive Management</li>
+                                <li><span>&bull;</span>Transparent Order Milestone &amp; Receipt Verification</li>
+                                <li><span>&bull;</span>Responsive Client-Artist Collaboration &amp; Notifications</li>
+                                <li><span>&bull;</span>Automated Cloud Media Storage Optimization</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6. System Architecture & Diagrams (Criteria 2 to 5) -->
+                <div class="pres-section" id="section-06">
+                    <div class="section-header">
+                        <span class="section-num">06</span>
+                        <h2>System Models &amp; Architectural Diagrams</h2>
+                    </div>
+
+                    <!-- 1. DFD Level 0 -->
+                    <div class="diagram-card">
+                        <div class="diagram-top">
+                            <h3>1. Data Flow Diagram &mdash; Level 0 (Context Diagram)</h3>
+                            <a href="https://drive.google.com/file/d/15zYxRTsk6cLDqzKcdkj1aDQLLB3h4qmL/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="nav-link">1. Open DFD Level 0 (Draw.io)</a>
+                        </div>
+                        <p class="diagram-desc">
+                            Establishes the overall system boundary (<strong>Process 0.0: Commission Tracking System Portal Application</strong>) and its balanced bidirectional data flows with four external entities:
+                        </p>
+                        <ul class="diagram-points">
+                            <li><strong>CLIENT (Art Commissioner / User):</strong> Submits sign-in credentials, profile registration, MPIN/biometric auth, commission requests (type, MOP, budget), direct chat messages, WIP comments, media attachments, and MPIN reset requests; receives auth sessions, 12-digit account IDs, verified badge status, available slots, commission milestones, artist replies, and real-time push alerts.</li>
+                            <li><strong>ADMIN / ARTIST (Jan Dergy / Service Provider):</strong> Submits admin auth, slot limits, MPIN reset decisions, request approvals (with receipt <code>transNo</code>) or rejections, commission CRUD updates, replies, verified/block flags, news broadcasts, community links, and storage cleanup triggers; receives pending request review queues, client-grouped commission history, client messages/comments, and maintenance summaries.</li>
+                            <li><strong>GOOGLE IDENTITY / FIREBASE AUTH:</strong> Verifies OAuth 2.0 Google ID tokens and returns verified email and auth session tokens.</li>
+                            <li><strong>CLOUDINARY MEDIA API:</strong> Handles media uploads (PFP, chat, WIP comments) and expired asset purge requests, returning secure CDN URLs, public IDs, and deletion status.</li>
+                        </ul>
+                        <div class="diagram-img-frame">
+                            <img src="Assets/1_DFD_Level_0.drawio.png" alt="DFD Level 0 Context Diagram">
+                        </div>
+                    </div>
+
+                    <!-- 2. DFD Level 1 -->
+                    <div class="diagram-card">
+                        <div class="diagram-top">
+                            <h3>2. Data Flow Diagram &mdash; Level 1 (Process Decomposition)</h3>
+                            <a href="https://drive.google.com/file/d/13kJ8aCgN-qEv7ppW3GzqRhGD2GP_awo9/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="nav-link">2. Open DFD Level 1 (Draw.io)</a>
+                        </div>
+                        <p class="diagram-desc">
+                            Decomposes Process 0.0 into <strong>6 major processes (1.0&ndash;6.0)</strong> and <strong>7 internal Data Stores (D1&ndash;D7)</strong> while maintaining strict 1-to-1 boundary flow balance with Level 0:
+                        </p>
+                        <ul class="diagram-points">
+                            <li><strong>1.0 Authentication, Profile &amp; Security Management:</strong> Manages Google Sign-In, RA 10173 consent, MPIN/Biometrics, PFP uploads, and MPIN reset tickets across <em>D1 Users Store</em> (<code>/Users</code>) and <em>D2 Security &amp; Access Store</em> (<code>/MpinResetRequests</code>, <code>/BlockedClients</code>).</li>
+                            <li><strong>2.0 Commission Slot &amp; Request Processing:</strong> Validates slot limits in <em>D7 Settings &amp; Media Logs Store</em> (<code>/Settings/CommissionSlots</code>), stores requests in <em>D3 Commission Requests Store</em> (<code>/CommissionRequests</code>), and promotes approved requests into <em>D4 Active Commissions Store</em> (<code>/Commissions</code>).</li>
+                            <li><strong>3.0 Commission Lifecycle &amp; Archive Management:</strong> Executes CRUD updates, milestone changes, and client-grouped archive search on <em>D4 Active Commissions Store</em> while resolving client names from <em>D1</em>.</li>
+                            <li><strong>4.0 Direct Messaging, WIP Comments &amp; Alerts:</strong> Handles real-time chat, typing indicators, WIP feedback threads, media attachments, and foreground notifications via <em>D5 Messages &amp; Comments Store</em> (<code>/Messages</code>, <code>/Comments</code>, <code>/TypingStatus</code>) and logs 7d/30d media expiry in <em>D7 (TiDB Logs)</em>.</li>
+                            <li><strong>5.0 News Broadcasts &amp; Community Management:</strong> Publishes and delivers announcements and social links via <em>D6 News &amp; Community Store</em> (<code>/NewsBroadcasts</code>, <code>/CommunityLinks</code>).</li>
+                            <li><strong>6.0 Storage Maintenance &amp; Media Cleanup:</strong> Queries expired attachment keys from <em>D7 (TiDB Cloud)</em>, triggers batch asset deletion via <em>Cloudinary Media API</em>, and removes expired logs.</li>
+                        </ul>
+                        <div class="diagram-img-frame">
+                            <img src="Assets/2_DFD_Level_1.drawio.png" alt="DFD Level 1 Process Decomposition">
+                        </div>
+                    </div>
+
+                    <!-- 3. ERD -->
+                    <div class="diagram-card">
+                        <div class="diagram-top">
+                            <h3>3. Entity-Relationship Diagram (ERD &mdash; Crow&rsquo;s Foot Notation)</h3>
+                            <a href="https://drive.google.com/file/d/1ExyQsyvsMXiKKILOCslPMDjkt3yVIfad/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="nav-link">3. Open ERD (Draw.io)</a>
+                        </div>
+                        <p class="diagram-desc">
+                            Defines all <strong>12 database entities</strong> (11 Firebase Realtime Database nodes and 1 TiDB Cloud SQL table) with Primary Keys (PK), Foreign Keys (FK), Unique Keys (UK), attributes, and Crow&rsquo;s Foot cardinalities:
+                        </p>
+                        <ul class="diagram-points">
+                            <li><strong>User &amp; Security Schema:</strong> <code>USERS</code> (PK <code>user_key</code>, UK 12-digit <code>account_number</code>, <code>fursona_name</code>, <code>verified</code>, <code>mpin</code>) links 1:0..1 to <code>BLOCKED_CLIENTS</code> and <code>MPIN_RESET_REQUESTS</code>, and 1:N to <code>TYPING_STATUS</code> and <code>MESSAGES</code>.</li>
+                            <li><strong>Commission &amp; Feedback Schema:</strong> <code>USERS</code> submits 1:N <code>COMMISSION_REQUESTS</code> (governed by <code>SYSTEM_SETTINGS.CommissionSlots</code>) and owns 1:N <code>COMMISSIONS</code> (promoted 0..1:0..1 upon approval). Both requests and commissions relate 1:N to <code>COMMENTS</code>.</li>
+                            <li><strong>Media Expiry &amp; Portal Schema:</strong> <code>MESSAGES</code> (7-day expiry) and <code>COMMENTS</code> (30-day expiry) log uploaded files to <code>ATTACHMENT_LOGS</code> in TiDB Cloud (PK <code>storage_path</code>, <code>file_url</code>, <code>expires_at</code>). Standalone collections include <code>NEWS_BROADCASTS</code> and <code>COMMUNITY_LINKS</code>.</li>
+                        </ul>
+                        <div class="diagram-img-frame">
+                            <img src="Assets/3_ERD.drawio.png" alt="Entity-Relationship Diagram">
+                        </div>
+                    </div>
+
+                    <!-- 4. Use Case Diagram -->
+                    <div class="diagram-card">
+                        <div class="diagram-top">
+                            <h3>4. Use Case Diagram (UCD)</h3>
+                            <a href="https://drive.google.com/file/d/1JdpY2bRiEGah_U-HAdQziUzndbuoT05-/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="nav-link">4. Open Use Case Diagram (Draw.io)</a>
+                        </div>
+                        <p class="diagram-desc">
+                            Models <strong>23 functional use cases (UC1&ndash;UC23)</strong> across primary actors (<strong>Client</strong> and <strong>Admin / Artist</strong>) and external systems (<strong>Google Identity / Firebase Auth</strong> and <strong>Cloudinary Media API &amp; TiDB Cloud</strong>):
+                        </p>
+                        <ul class="diagram-points">
+                            <li><strong>Shared Use Cases (UC1&ndash;UC4):</strong> Authenticate Account (Google Sign-In, RA 10173, MPIN/Biometric), Manage Security &amp; Alerts, Post &amp; View WIP Comments, and Real-Time Direct Messaging.</li>
+                            <li><strong>Client Use Cases (UC5&ndash;UC11):</strong> Edit Profile &amp; Upload PFP, Complete Profile Registration (Fursona Info &amp; 12-Digit Account ID), Track Requests &amp; Active Orders, Request MPIN Reset, Submit Commission Request (<code>&laquo;includes&raquo;</code> UC15), View News &amp; Community Links, and View Legal Docs &amp; Support.</li>
+                            <li><strong>Include / Extend &amp; Access Control Use Cases (UC12&ndash;UC15):</strong> Upload / Download Cloud Media (<code>&laquo;extends&raquo;</code> UC3, UC4, UC5 for verified users), Grant / Revoke Verified Badge (UC13), Block / Unblock Client (UC14), and Check Available Commission Slots (UC15).</li>
+                            <li><strong>Admin / Artist Use Cases (UC16&ndash;UC23):</strong> Configure Commission Slots, Add/Edit/Delete Commissions, Search Client Order Archive, Review Pending Requests (Approve w/ Receipt Trans # or Reject), Manage News Broadcasts, Manage Community Links, Process MPIN Reset Requests, and Run Storage Maintenance.</li>
+                        </ul>
+                        <div class="diagram-img-frame">
+                            <img src="Assets/4_Use_Case_Diagram.drawio.png" alt="Use Case Diagram">
+                        </div>
+                    </div>
+
+                    <!-- 5. UML Class Diagram -->
+                    <div class="diagram-card">
+                        <div class="diagram-top">
+                            <h3>5. UML Class Diagram</h3>
+                            <a href="https://drive.google.com/file/d/1w4dunMqELvtkDKAAGhCOxJcETUdQrofF/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="nav-link">5. Open UML Class Diagram (Draw.io)</a>
+                        </div>
+                        <p class="diagram-desc">
+                            Illustrates the actual Java package structure (<code>com.jandergy.commission</code>) across data models, cloud API helpers, and Android background notification services:
+                        </p>
+                        <ul class="diagram-points">
+                            <li><strong>Data Models (Blue Classes):</strong> <code>UserModel</code>, <code>ResetRequest</code>, <code>CommissionModel</code>, <code>ClientGroup</code> (aggregates <code>List&lt;CommissionModel&gt;</code> for grouped archive display), <code>CommentModel</code> (composed within <code>CommissionModel</code>), <code>MessageModel</code>, <code>NewsModel</code>, and <code>CommunityLink</code>.</li>
+                            <li><strong>Cloud API Helpers (Teal Classes):</strong> <code>CloudinaryHelper</code> (authenticated CDN uploads, SHA-1 signing, downloads, and deletions) and <code>TidbHelper</code> (OkHttp REST client logging attachment expiry, querying expired assets, and deleting purged records).</li>
+                            <li><strong>Android Background Services (Purple Classes):</strong> <code>BootReceiver</code> (auto-starts notification service on boot), <code>AppNotificationService</code> (foreground service observing Firebase nodes for live changes), and <code>NotificationHelper</code> (dispatches categorized system notifications).</li>
+                        </ul>
+                        <div class="diagram-img-frame">
+                            <img src="Assets/5_UML_Class_Diagram.drawio.png" alt="UML Class Diagram">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 7. Model Integration & Methodology (Criterion 6 & Template Slides 8-13) -->
+                <div class="pres-section" id="section-07">
+                    <div class="section-header">
+                        <span class="section-num">07</span>
+                        <h2>Model Integration, Research Design &amp; Evaluation</h2>
+                    </div>
+                    <div class="grid-2">
+                        <div class="info-card">
+                            <h3>Integration &amp; Consistency of Models</h3>
+                            <p>All 4 external entities in DFD Level 0 map identically to DFD Level 1 and the Use Case Diagram actors. The 7 DFD Level 1 data stores (D1&ndash;D7) correspond directly to the 12 ERD database tables/nodes, which map 1-to-1 to the Java classes in the UML Class Diagram.</p>
+                        </div>
+                        <div class="info-card">
+                            <h3>Research Design &amp; Locale</h3>
+                            <p>Utilizes a <strong>Developmental and Descriptive-Evaluative</strong> design conducted at <strong>Cronasia Foundation College, Inc.</strong> (General Santos City) during AY 2026&ndash;2027 with target clients, the service provider, and IT/BSIS evaluators.</p>
+                        </div>
+                        <div class="info-card">
+                            <h3>Data Gathering Procedures</h3>
+                            <p>Conducted through four structured phases: (1) Approval Letter &amp; Requirements Scoping, (2) System Prototyping &amp; Screening of Evaluators, (3) Functional Testing &amp; Data Collection, and (4) Data Preparation &amp; Verification.</p>
+                        </div>
+                        <div class="info-card">
+                            <h3>Research Instrument &amp; Statistical Treatment</h3>
+                            <p>Evaluated using a <strong>5-point Likert scale</strong> instrument aligned with ISO/IEC 25010 software quality characteristics (functional suitability, performance efficiency, usability, security, maintainability), analyzed via <strong>Mean and Standard Deviation</strong>.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Jan Dergy Commission System. All rights reserved.</p>
+    </footer>
+
+    <!-- Fullscreen Interactive Zoom in/out Lightbox -->
+    <div id="imgLightbox" class="img-lightbox">
+        <button type="button" class="lightbox-close" id="lightboxClose">&times; Close (Esc)</button>
+        <img id="lightboxTarget" src="" alt="Enlarged Diagram" draggable="false">
+        <div class="lightbox-controls">
+            <button type="button" class="lightbox-btn" id="zoomOutBtn" title="Zoom Out">&minus;</button>
+            <span class="lightbox-zoom-label" id="zoomLevelLabel">100%</span>
+            <button type="button" class="lightbox-btn" id="zoomInBtn" title="Zoom In">&plus;</button>
+            <button type="button" class="lightbox-btn" id="zoomResetBtn" title="Reset Zoom">Reset</button>
+        </div>
+    </div>
+
+    <script>
+        (function () {
+            /* 1. Interactive Image Zoom & Pan Lightbox */
+            var lightbox = document.getElementById('imgLightbox');
+            var target = document.getElementById('lightboxTarget');
+            var zoomLabel = document.getElementById('zoomLevelLabel');
+            var zoomInBtn = document.getElementById('zoomInBtn');
+            var zoomOutBtn = document.getElementById('zoomOutBtn');
+            var zoomResetBtn = document.getElementById('zoomResetBtn');
+            var closeBtn = document.getElementById('lightboxClose');
+
+            var scale = 1;
+            var translateX = 0;
+            var translateY = 0;
+            var isDragging = false;
+            var hasMoved = false;
+            var startX = 0;
+            var startY = 0;
+
+            function applyTransform() {
+                target.style.transform = 'translate(' + translateX + 'px, ' + translateY + 'px) scale(' + scale + ')';
+                zoomLabel.textContent = Math.round(scale * 100) + '%';
+                if (scale > 1) {
+                    lightbox.classList.add('is-zoomed');
+                } else {
+                    lightbox.classList.remove('is-zoomed');
+                }
+            }
+
+            function resetZoom() {
+                scale = 1;
+                translateX = 0;
+                translateY = 0;
+                applyTransform();
+            }
+
+            function setZoom(newScale) {
+                scale = Math.min(Math.max(newScale, 0.5), 4);
+                if (scale === 1) {
+                    translateX = 0;
+                    translateY = 0;
+                }
+                applyTransform();
+            }
+
+            document.querySelectorAll('.diagram-img-frame').forEach(function (frame) {
+                frame.addEventListener('click', function () {
+                    var img = frame.querySelector('img');
+                    target.src = img.src;
+                    target.alt = img.alt;
+                    resetZoom();
+                    lightbox.classList.add('active');
+                });
+            });
+
+            target.addEventListener('click', function (e) {
+                e.stopPropagation();
+                if (hasMoved) {
+                    hasMoved = false;
+                    return;
+                }
+                if (scale === 1) {
+                    setZoom(2);
+                } else {
+                    resetZoom();
+                }
+            });
+
+            lightbox.addEventListener('wheel', function (e) {
+                e.preventDefault();
+                var delta = e.deltaY < 0 ? 0.25 : -0.25;
+                setZoom(scale + delta);
+            }, { passive: false });
+
+            target.addEventListener('mousedown', function (e) {
+                if (scale <= 1) return;
+                isDragging = true;
+                hasMoved = false;
+                startX = e.clientX - translateX;
+                startY = e.clientY - translateY;
+                lightbox.classList.add('is-dragging');
+            });
+
+            window.addEventListener('mousemove', function (e) {
+                if (!isDragging) return;
+                var dx = e.clientX - startX;
+                var dy = e.clientY - startY;
+                if (Math.abs(dx - translateX) > 4 || Math.abs(dy - translateY) > 4) {
+                    hasMoved = true;
+                }
+                translateX = dx;
+                translateY = dy;
+                applyTransform();
+            });
+
+            window.addEventListener('mouseup', function () {
+                if (isDragging) {
+                    isDragging = false;
+                    lightbox.classList.remove('is-dragging');
+                }
+            });
+
+            zoomInBtn.addEventListener('click', function (e) {
+                e.stopPropagation();
+                setZoom(scale + 0.5);
+            });
+
+            zoomOutBtn.addEventListener('click', function (e) {
+                e.stopPropagation();
+                setZoom(scale - 0.5);
+            });
+
+            zoomResetBtn.addEventListener('click', function (e) {
+                e.stopPropagation();
+                resetZoom();
+            });
+
+            function closeLightbox() {
+                lightbox.classList.remove('active');
+                resetZoom();
+            }
+
+            closeBtn.addEventListener('click', closeLightbox);
+
+            lightbox.addEventListener('click', function (e) {
+                if (e.target === lightbox) {
+                    closeLightbox();
+                }
+            });
+
+            window.addEventListener('keydown', function (e) {
+                if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+                    closeLightbox();
+                }
+            });
+
+            /* 2. Sticky Table of Contents Scroll Spy */
+            var tocLinks = Array.prototype.slice.call(document.querySelectorAll('.toc-link'));
+            var trackedSections = tocLinks.map(function (link) {
+                var id = link.getAttribute('href').slice(1);
+                return document.getElementById(id);
+            }).filter(Boolean);
+
+            function updateActiveToc() {
+                var scrollPos = window.scrollY + 130;
+                var currentId = trackedSections[0] ? trackedSections[0].id : '';
+                for (var i = 0; i < trackedSections.length; i++) {
+                    if (trackedSections[i].offsetTop <= scrollPos) {
+                        currentId = trackedSections[i].id;
+                    }
+                }
+                tocLinks.forEach(function (link) {
+                    if (link.getAttribute('href') === '#' + currentId) {
+                        link.classList.add('active');
+                    } else {
+                        link.classList.remove('active');
+                    }
+                });
+            }
+
+            window.addEventListener('scroll', updateActiveToc, { passive: true });
+            updateActiveToc();
+        })();
+    </script>
+</body>
+</html>
